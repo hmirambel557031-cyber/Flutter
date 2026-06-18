@@ -14,7 +14,6 @@ class Food1 extends StatelessWidget {
             Container(
               height: 350,
               width: 200,
-
               child: Image.asset(
                 'assets/images/adobo.jpg',
                 height: 200,

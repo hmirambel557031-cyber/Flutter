@@ -30,11 +30,12 @@ class Activity3 extends StatelessWidget {
             const SizedBox(height: 20),
             // EdgeInsets.symmetric(horizontal: 40, vertical: 10)
             Container(
+              margin: const EdgeInsets.symmetric(vertical: 10),
               color: Colors.yellow,
               child: Padding(
                 padding: const EdgeInsets.symmetric(
                   horizontal: 40,
-                  vertical: 10,
+                  vertical: 5,
                 ),
                 child: const Text(
                   'EdgeInsets.symmetric(horizontal: 40, vertical: 10)',
@@ -49,6 +50,7 @@ class Activity3 extends StatelessWidget {
             const SizedBox(height: 20),
             // EdgeInsets.only(left: 30, top: 10, right: 5, bottom: 20)
             Container(
+              margin: const EdgeInsets.symmetric(horizontal: 20),
               color: Colors.blue,
               child: Padding(
                 padding: const EdgeInsets.only(
@@ -67,7 +69,7 @@ class Activity3 extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 40),
             // EdgeInsets.fromLTRB(10, 20, 30, 40)
             Container(
               color: Colors.green,
