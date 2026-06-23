@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'food1.dart';
-import 'activity3.dart';
-import 'activity4.dart';
+import 'calculator.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +31,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Activity3(),
+      home: Calculator(),
     );
   }
 }
